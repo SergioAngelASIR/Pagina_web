@@ -1,0 +1,151 @@
+/*CABECERA PAGINA PRINCIPAL*/
+.caja{ 
+	position: relative;
+	display: inline-block;
+	margin-left: -8px;
+}
+.texto1{
+	position: absolute;
+	top: 20px;
+	margin-left: 50px;
+	font-family: eras itc;
+	font-size: 90px;
+	color: red; 
+}
+.texto2{
+	position: absolute;
+	top: 235px;
+	margin-left: 970px;
+	font-family: bookman old style;
+	color: blue;
+}
+
+
+.fondo{
+	position: all;
+	width: 1544px;
+	height: auto;
+}
+
+.logo{
+	position: absolute; 
+	width: auto;
+	height: 100px;
+	top: 10em;
+	margin-left: 30px;
+}
+/*TEXTO INICIO*/
+.caja1{
+	position: relative;
+	display: inline-block;
+	
+}
+.texto3{
+	position: absolute;
+	color: grey;
+	font-family: cooper;
+	font-size: 40px;
+	margin-left: 210px;
+	padding-right: 200px
+}
+.texto4{
+	position: all;
+	font-size: 25px;
+	margin-left: 210px;
+	padding-right: 200px
+}
+
+.caja2{
+	margin-top: -324px;
+	padding-right: 50px;
+	padding-bottom: 222px;
+	float: left;
+	background-color: black;
+}
+
+
+/*BARRA NAVEGACION*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+ul{
+  list-style: none;
+}
+
+nav ul li{ 
+  float: bottom;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  background-color: black;
+  color: red;
+  padding: 10px;
+  position: all;
+
+}
+
+nav ul li a{ 
+	color: red;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+	background: black; 
+	position: all; 
+	transition: all .3s ease; 	
+}
+
+nav ul li ul{
+
+	position: absolute; 
+	background: black; 
+	margin-top: -127px;
+	left: 127px; 
+	overflow:hidden; 
+	height:0%; 
+	transition: all .3s ease;									
+}
+
+nav ul li ul:hover{
+	background: black;
+
+}
+
+nav ul li a:hover{
+	color: black;
+	background-color: red;
+
+}
+
+#cat:hover {
+	color: black;
+	background-color: red;
+
+}
+
+nav ul li ul li a:hover {	
+	color: black;
+	background-color: red;
+}
+
+nav li:hover ul {
+  display: block;
+}
+
+nav li a{}
+
+nav ul li:hover ul{
+	display:block;
+	height:101%;
+	position: absolute;
+}
+
+/*Pie de página*/
+footer{
+	text-align: center;
+	padding-top: 133px; 
+	color: red;
+}

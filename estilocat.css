@@ -1,0 +1,176 @@
+/*CABECERA PAGINA PRINCIPAL*/
+.caja{ 
+	position: relative;
+	display: inline-block;
+	margin-left: -8px;
+}
+.texto1{
+	position: absolute;
+	top: 20px;
+	margin-left: 50px;
+	font-family: eras itc;
+	font-size: 90px;
+	color: red; 
+}
+.texto2{
+	position: absolute;
+	top: 235px;
+	margin-left: 970px;
+	font-family: bookman old style;
+	color: blue;
+}
+.fondo{
+	position: all;
+	width: 1544px;
+	height: auto;
+}
+
+.logo{
+	position: absolute; 
+	width: auto;
+	height: 100px;
+	top: 10em;
+	margin-left: 30px;
+	/*background-color: grey;*/
+}
+
+/*BARRA NAVEGACION*/
+
+.caja2{
+	margin-top: -4px;
+	padding-right: 50px;
+	padding-bottom: 222px;
+	float: left;
+	background-color: black;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+ul{
+  list-style: none;
+}
+
+nav ul li{ 
+  float: bottom;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  background-color: black;
+  color: red;
+  padding: 10px;
+  position: all;
+
+}
+
+nav ul li a{ 
+	color: red;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+	background: black; 
+	position: all; 
+	transition: all .3s ease; 	
+}
+
+nav ul li ul{
+
+	position: absolute; 
+	background: black; 
+	margin-top: -127px;
+	left: 127px; 
+	overflow:hidden; 
+	height:0%; 
+	transition: all .3s ease;									
+}
+
+nav ul li ul:hover{
+	background: black;
+
+}
+
+nav ul li a:hover{
+	color: black;
+	background-color: red;
+
+}
+
+#cat:hover {
+	color: black;
+	background-color: red;
+
+}
+
+nav ul li ul li a:hover {	
+	color: black;
+	background-color: red;
+}
+
+nav li:hover ul {
+  display: block;
+}
+
+nav li a{}
+
+nav ul li:hover ul{
+	display:block;
+	height:101%;
+	position: absolute;
+}
+
+/*Contenido*/
+.caja1{
+	position: relative;
+	display: inline-block;
+	width: 1340px;
+}
+
+.texto3{
+	position: all;
+	font-family: cooper;
+	color: grey;
+	margin-left: 130px;
+}
+
+
+/*CATALOGO*/
+
+.contenedor{
+	float: center;
+	width: 1000px;
+	margin-top: -100px
+}
+
+.contenedor img{
+	position: absolute;
+	height: 210px;
+	width: auto;
+	border-radius: 20px;
+	margin-left: -30px;
+	padding-top: 0px;
+
+}
+
+.contenedor li{
+	width: 366px; 
+	list-style: none;
+	display: inline-block;
+	padding-top: 135px;
+	padding-left: 132px;}
+
+
+.contendeor p{
+	text-align: justify;
+}
+
+/*Pie de página*/
+footer{
+	text-align: right;
+	margin-right: 20px;
+	padding-top: 207px; 
+	color: red;
+}
+
